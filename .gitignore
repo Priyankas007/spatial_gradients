@@ -1,3 +1,4 @@
+# ignore all files with the following extensions
 *.pth
 *.DS_Store
 *.venv
@@ -5,3 +6,8 @@
 *.env.local
 *.env.development.local
 *.env.test.local
+
+
+# ignore ALL files in ANY directory named temp
+models/
+data/
